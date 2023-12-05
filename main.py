@@ -7,7 +7,7 @@ class CalculatorApp:
         self.root = root
         self.root.title("Scientific Calculator")
         self.root.geometry("400x500")
-        self.root.configure(bg='red')  # Set the background color to blue
+        self.root.configure(bg='blue')  # Set the background color to blue
 
         self.result_var = tk.StringVar()
 
